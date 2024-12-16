@@ -1,6 +1,7 @@
 package pl.zajavka.mortgage.services;
 
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import pl.zajavka.mortgage.model.*;
 
 import java.math.BigDecimal;
@@ -8,6 +9,7 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 @AllArgsConstructor
 public class RateCalculationServiceImpl implements RateCalculationService {
 

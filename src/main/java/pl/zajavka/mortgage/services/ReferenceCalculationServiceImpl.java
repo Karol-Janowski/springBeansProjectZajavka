@@ -1,9 +1,11 @@
 package pl.zajavka.mortgage.services;
 
+import org.springframework.stereotype.Service;
 import pl.zajavka.mortgage.model.*;
 
 import java.math.BigDecimal;
 
+@Service
 public class ReferenceCalculationServiceImpl implements ReferenceCalculationService {
 
     @Override

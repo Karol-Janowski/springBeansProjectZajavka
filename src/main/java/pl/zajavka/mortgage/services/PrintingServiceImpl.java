@@ -1,5 +1,6 @@
 package pl.zajavka.mortgage.services;
 
+import org.springframework.stereotype.Service;
 import pl.zajavka.mortgage.model.InputData;
 import pl.zajavka.mortgage.model.Overpayment;
 import pl.zajavka.mortgage.model.Rate;
@@ -17,6 +18,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+@Service
 public class PrintingServiceImpl implements PrintingService {
 
     private static final String SEPARATOR = createSeparator('-', 180);
